@@ -1,10 +1,16 @@
 {
-    "functions": {
-        "api/clean_text_for_users.py": {
-            "runtime": "python@3.9"
+    "builds": [
+        {
+            "src": "*.html",
+            "use": "@vercel/static"
         },
-        "api/clean_text_for_team.py": {
-            "runtime": "python@3.9"
+        {
+            "src": "*.py",
+            "use": "@vercel/python"
+        },
+        {
+            "src": "*.js",
+            "use": "@vercel/node"
         }
-    }
+    ]
 }
