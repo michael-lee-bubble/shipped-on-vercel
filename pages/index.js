@@ -41,7 +41,7 @@ const HomePage = () => {
             </section>
             <section className="about-section">
                 <img
-                    src="public/bubble_headshot.jpeg"
+                    src="/bubble_headshot.jpeg"
                     alt="Michael's Profile Picture"
                     className="profile-picture"
                 />
