@@ -13,15 +13,9 @@ const HomePage = () => {
             </Head>
             <header>
                 <div className="header-title">
-                    <a href="https://michaellee.pythonanywhere.com/">Michael's Sandbox</a>
+                    <a href="https://pythonanywhere-live.vercel.app/">Michael's Sandbox</a>
                 </div>
                 <ul className="header-menu">
-                    <li>
-                        <a href="https://michaellee.pythonanywhere.com/python_library">Python Library</a>
-                    </li>
-                    <li>
-                        <a href="https://michaellee.pythonanywhere.com/data_library">Data Library</a>
-                    </li>
                     <li>
                         <a href="https://github.com/michael-lee-bubble/pythonanywhere-live">GitHub</a>
                     </li>
