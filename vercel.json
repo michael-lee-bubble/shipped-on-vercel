@@ -1,10 +1,10 @@
 {
     "functions": {
         "api/clean_text_for_users.py": {
-            "runtime": "python3.9"
+            "runtime": "vercel-python@0.5.1"
         },
         "api/clean_text_for_team.py": {
-            "runtime": "python3.9"
+            "runtime": "vercel-python@0.5.1"
         }
     }
 }
